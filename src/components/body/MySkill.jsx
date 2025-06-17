@@ -8,7 +8,7 @@ export default function MySkill() {
         <h2 className="text-4xl leading-[125%] font-bold lg:text-5xl lg:leading-[130%] xl:text-6xl">
           My <span className="text-green">Skill On</span>
         </h2>
-        <p className="text-base font-medium lg:w-1/2 lg:mx-auto lg:leading-[180%] xl:text-xl">
+        <p className="text-base font-medium lg:w-1/2 lg:mx-auto lg:leading-[180%]">
           Technology that i have tried
         </p>
       </div>

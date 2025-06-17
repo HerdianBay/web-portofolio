@@ -7,7 +7,7 @@ export default function Contact() {
         <h2 className="text-4xl font-bold leading-[125%] lg:text-5xl lg:leading-[130%] xl:text-6xl">
           Let's <span className="text-green">Discuss</span>
         </h2>
-        <p className="text-base font-medium xl:text-xl">
+        <p className="text-base font-medium">
           You can reach me on my social media
         </p>
       </div>
