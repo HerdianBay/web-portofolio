@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Breakline from "../Breakline";
 import { getAllData } from "../../utils/data";
 import Wrapper from "../Wrapper";
 import Button from "../Button";
