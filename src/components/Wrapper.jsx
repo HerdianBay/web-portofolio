@@ -14,7 +14,7 @@ export default function Wrapper({ data }) {
       {isClick && <Popup data={data} onClose={handleClick} />}
       {type === "Web" ? (
         <div className="mb-8">
-          <button className="w-full" onClick={handleClick}>
+          <button className="w-full hover:cursor-pointer" onClick={handleClick}>
             <img
               src={image}
               alt=""
@@ -27,7 +27,7 @@ export default function Wrapper({ data }) {
         </div>
       ) : (
         <div className="mb-8">
-          <button onClick={handleClick}>
+          <button className="hover:cursor-pointer" onClick={handleClick}>
             <img
               src={image}
               alt=""

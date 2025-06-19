@@ -6,7 +6,7 @@ export default function Popup({ data, onClose }) {
       <div className="px-5 flex items-center h-screen md:px-16 lg:px-24">
         <div className="bg-white w-full rounded-lg shadow-md px-2 pt-12 pb-4 relative md:px-4 lg:px-10">
           <button
-            className="text-black absolute top-4 right-4"
+            className="text-black absolute top-4 right-4 hover:cursor-pointer"
             onClick={onClose}
           >
             <svg
