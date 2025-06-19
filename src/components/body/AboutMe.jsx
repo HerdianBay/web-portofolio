@@ -4,7 +4,7 @@ import Button from "../Button";
 export default function AboutMe() {
   const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/19fcYTMi7Q9IUHpTvtpqo9Dopbgpvv3Hr/view?usp=sharing",
+      "https://drive.google.com/file/d/1ckGPRrUA3WrPv9kJMWE8mtQKHsxpC34R/view?usp=sharing",
       "_blank"
     );
   };
