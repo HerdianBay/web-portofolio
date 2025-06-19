@@ -33,7 +33,10 @@ export default function AboutMe() {
             landscape.
           </p>
           <div className="mt-8 flex justify-center">
-            <Button style={`bg-blue text-white`} onClick={handleClick}>
+            <Button
+              style={`bg-blue text-white hover:cursor-pointer`}
+              onClick={handleClick}
+            >
               Download Curriculum Vitae
             </Button>
           </div>

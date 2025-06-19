@@ -37,7 +37,10 @@ export default function MyProjects() {
         ))}
       </div>
       {!isAllDataVisible && (
-        <Button style={`border-2 border-black`} onClick={handleLoadData}>
+        <Button
+          style={`border-2 border-black hover:cursor-pointer`}
+          onClick={handleLoadData}
+        >
           Load More
         </Button>
       )}
